@@ -19,6 +19,6 @@ fun main() {
         payment = (payment * (1 - additionalDiscount)).toInt()
     }
 
-    println("Сумма к оплате " + payment / 100 + "руб. " + payment % 100 + "коп.")
+    println("Сумма к оплате ${payment / 100}руб. ${payment % 100}коп.")
 }
 
